@@ -1,7 +1,8 @@
 .container {
-    background-color: rgb(237, 200, 200);
-    max-width: 800px;
+    max-width: 500px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    color: #4D4F62;
+    margin-bottom: 70px;
 }
