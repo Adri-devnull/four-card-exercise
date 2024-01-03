@@ -16,25 +16,25 @@ const App = () => {
 				<Information text='Our Artificial Intelligence powered tools use millions of project data points to ensure that your project is successful' />
 			</Header>
 			<Cards>
-				<Card>
-					<TitleCard text = 'Team Builder'/>
-					<Information text = 'Scans our talent network to create the optimal team for your project'/>
-					<ImageCard src= './public/assets/images/icon-team-builder.svg'/>
+				<Card color='border-red'>
+					<TitleCard text='Team Builder' />
+					<Information text='Scans our talent network to create the optimal team for your project' />
+					<ImageCard src='./public/assets/images/icon-team-builder.svg' />
 				</Card>
-				<Card>
-					<TitleCard text = 'Supervisor'/>
-					<Information text = 'Monitors activity to identify project roadblocks'/>
-					<ImageCard src= './public/assets/images/icon-supervisor.svg'/>
+				<Card color='border-blue'>
+					<TitleCard text='Supervisor' />
+					<Information text='Monitors activity to identify project roadblocks' />
+					<ImageCard src='./public/assets/images/icon-supervisor.svg' />
 				</Card>
-				<Card>
-					<TitleCard text = 'Calculator'/>
-					<Information text = 'Uses data from past projects to provide better delivery estimates'/>
-					<ImageCard src= './public/assets/images/icon-calculator.svg'/>
+				<Card color='border-green'>
+					<TitleCard text='Calculator' />
+					<Information text='Uses data from past projects to provide better delivery estimates' />
+					<ImageCard src='./public/assets/images/icon-calculator.svg' />
 				</Card>
-				<Card>
-					<TitleCard text = 'Karma'/>
-					<Information text = 'Regularly evaluates our talent to ensure quality'/>
-					<ImageCard src= './public/assets/images/icon-karma.svg'/>
+				<Card color='border-yellow'>
+					<TitleCard text='Karma' />
+					<Information text='Regularly evaluates our talent to ensure quality' />
+					<ImageCard src='./public/assets/images/icon-karma.svg' />
 				</Card>
 			</Cards>
 		</>
