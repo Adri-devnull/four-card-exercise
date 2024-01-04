@@ -1,5 +1,5 @@
 const Information = (props) => {
-    return <p>{props.text}</p>
+    return <p>{props.children}</p>
 }
 
 export default Information;
